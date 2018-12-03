@@ -29,9 +29,9 @@ namespace ConsoleApp1
 
             // creat new writer and write output
             var sw = new StreamWriter(output);
+            sw.WriteLine("Hello world!");
 
             // clean up resources
-            sw.WriteLine();
             sw.Close();
             output.Close();
 
