@@ -1,4 +1,5 @@
 ﻿using Microsoft.WindowsAzure.Storage;
+using Microsoft.WindowsAzure.Storage.Queue;
 using System;
 using System.IO;
 
@@ -35,6 +36,12 @@ namespace ConsoleApp1
             sw.Close();
             output.Close();
 
+            // create message in the queue
+            var qclient = cloudStorageAccount.CreateCloudQueueClient();
+            var queue = qclient.GetQueueReference("barbieq");
+            queue.CreateIfNotExistsAsync();
+            var msg = new CloudQueueMessage("Hello Queue World-Adam");
+            queue.AddMessageAsync(msg).Wait();
         }
     }
 }
