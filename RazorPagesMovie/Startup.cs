@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
+using Microsoft.WindowsAzure.Storage.Table;
 using RazorPagesMovie.Models;
 
 namespace RazorPagesMovie
@@ -36,9 +37,16 @@ namespace RazorPagesMovie
             // get the connection string - preferably keyvault
             CloudStorageAccount account = CloudStorageAccount.Parse(Configuration.GetValue<string>("storage"));
 
-            // create single instance of the blob client object
+            // =====> BLOB CLIENT
             CloudBlobClient blobClient = account.CreateCloudBlobClient();
             services.AddSingleton<CloudBlobClient>(blobClient);
+
+            // =====> TABLE CLIENT AND TABLE CREATE
+
+            CloudTableClient tableClient = account.CreateCloudTableClient();
+            var table = tableClient.GetTableReference("ajposter");
+            table.CreateIfNotExistsAsync();
+            services.AddSingleton<CloudTable>(table);
 
             // ====> EDITED!
         }
