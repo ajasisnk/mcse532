@@ -60,10 +60,8 @@ namespace RazorPagesMovie.Pages.Movies
 
             // ====> TABLE
 
-            Poster poster = new Poster()
+            Poster poster = new Poster(MovieID, FileUpload.FileName)
             {
-                MovieID = MovieID,
-                FileName = FileUpload.FileName,
                 URL = blob.StorageUri.PrimaryUri.AbsoluteUri,
                 FileSize = (long)FileUpload.Length
             };

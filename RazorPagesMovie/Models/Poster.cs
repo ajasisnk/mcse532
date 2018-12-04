@@ -8,17 +8,8 @@ namespace RazorPagesMovie.Models
 {
     public class Poster : TableEntity
     {
-        public int MovieID
-        {
-            get { return int.Parse(PartitionKey); }
-            set { this.PartitionKey = value.ToString(); }
-        }
-
-        public string FileName
-        {
-            get { return RowKey; }
-            set { this.RowKey = value.ToString(); }
-        }
+        public int MovieID => int.Parse(this.PartitionKey);
+        public string FileName => this.RowKey;
 
         public string URL { get; set; }
         public long FileSize { get; set; }
@@ -30,6 +21,8 @@ namespace RazorPagesMovie.Models
 
         public Poster(int movieid, string filename)
         {
+            // those two are automatically saved as columns in the table
+            // need to look at this as part of the design of the application
             this.PartitionKey = movieid.ToString();
             this.RowKey = filename;
         }
