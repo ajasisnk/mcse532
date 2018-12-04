@@ -20,8 +20,8 @@ namespace RazorPagesMovie.Models
             set { this.RowKey = value.ToString(); }
         }
 
-        public string URL;
-        public int FileSize;
+        public string URL { get; set; }
+        public long FileSize { get; set; }
 
         // default constructor
         public Poster(){}

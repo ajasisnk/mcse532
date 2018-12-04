@@ -64,8 +64,8 @@ namespace RazorPagesMovie.Pages.Movies
             {
                 MovieID = MovieID,
                 FileName = FileUpload.FileName,
-                URL = blob.StorageUri.PrimaryUri.ToString(),
-                FileSize = (int)FileUpload.Length
+                URL = blob.StorageUri.PrimaryUri.AbsoluteUri,
+                FileSize = (long)FileUpload.Length
             };
 
             var op = TableOperation.InsertOrMerge(poster);
