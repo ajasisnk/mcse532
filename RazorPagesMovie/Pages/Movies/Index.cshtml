@@ -62,6 +62,7 @@
                 @Html.DisplayFor(modelItem => item.Rating)
             </td>
             <td>
+                <a asp-page="./Poster" asp-route-id="@item.ID">Poster</a> |
                 <a asp-page="./Upload" asp-route-id="@item.ID">Upload</a> |
                 <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
                 <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |

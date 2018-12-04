@@ -1,0 +1,20 @@
+﻿@page
+@model RazorPagesMovie.Pages.Movies.PosterModel
+@{
+    ViewData["Title"] = "Poster";
+}
+
+<h2>Poster</h2>
+
+<div>
+    @foreach (var item in Model._posters)
+    {
+    <div class="col-md-8">
+        <p>@item.MovieID</p>
+        <p>@item.RowKey</p>
+        <p>@item.FileName</p>
+        <p><img src="@Model.GetSas(item.URL).Result"></p>
+    </div>
+    }
+</div>
+
