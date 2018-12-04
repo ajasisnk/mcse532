@@ -1,0 +1,14 @@
+﻿@page
+@model RazorPagesMovie.Pages.Movies.UploadModel
+@{
+    ViewData["Title"] = "Upload";
+}
+
+<h2>Upload</h2>
+
+<form method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="MovieID" />
+    <input type="file" asp-for="FileUpload" />
+    <input type="submit"/>
+</form>
+

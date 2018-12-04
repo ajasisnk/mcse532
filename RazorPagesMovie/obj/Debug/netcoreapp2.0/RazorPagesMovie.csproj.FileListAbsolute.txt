@@ -1,0 +1,12 @@
+C:\Users\Administrator\Documents\Git\mcse532\RazorPagesMovie\bin\Debug\netcoreapp2.0\RazorPagesMovie.deps.json
+C:\Users\Administrator\Documents\Git\mcse532\RazorPagesMovie\bin\Debug\netcoreapp2.0\RazorPagesMovie.runtimeconfig.json
+C:\Users\Administrator\Documents\Git\mcse532\RazorPagesMovie\bin\Debug\netcoreapp2.0\RazorPagesMovie.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\Git\mcse532\RazorPagesMovie\bin\Debug\netcoreapp2.0\RazorPagesMovie.dll
+C:\Users\Administrator\Documents\Git\mcse532\RazorPagesMovie\bin\Debug\netcoreapp2.0\RazorPagesMovie.pdb
+C:\Users\Administrator\Documents\Git\mcse532\RazorPagesMovie\obj\Debug\netcoreapp2.0\RazorPagesMovie.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\Git\mcse532\RazorPagesMovie\obj\Debug\netcoreapp2.0\RazorPagesMovie.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Git\mcse532\RazorPagesMovie\obj\Debug\netcoreapp2.0\RazorPagesMovie.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Git\mcse532\RazorPagesMovie\obj\Debug\netcoreapp2.0\RazorPagesMovie.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Git\mcse532\RazorPagesMovie\obj\Debug\netcoreapp2.0\RazorPagesMovie.dll
+C:\Users\Administrator\Documents\Git\mcse532\RazorPagesMovie\obj\Debug\netcoreapp2.0\RazorPagesMovie.pdb
+C:\Users\Administrator\Documents\Git\mcse532\RazorPagesMovie\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
