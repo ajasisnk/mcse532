@@ -1,0 +1,11 @@
+C:\Users\Administrator\Documents\Git\Microsoft.Azure.ServiceBus\BasicSendReceiveUsingQueueClient\bin\Debug\netcoreapp2.0\BasicSendReceiveUsingQueueClient.deps.json
+C:\Users\Administrator\Documents\Git\Microsoft.Azure.ServiceBus\BasicSendReceiveUsingQueueClient\bin\Debug\netcoreapp2.0\BasicSendReceiveUsingQueueClient.runtimeconfig.json
+C:\Users\Administrator\Documents\Git\Microsoft.Azure.ServiceBus\BasicSendReceiveUsingQueueClient\bin\Debug\netcoreapp2.0\BasicSendReceiveUsingQueueClient.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\Git\Microsoft.Azure.ServiceBus\BasicSendReceiveUsingQueueClient\bin\Debug\netcoreapp2.0\BasicSendReceiveUsingQueueClient.dll
+C:\Users\Administrator\Documents\Git\Microsoft.Azure.ServiceBus\BasicSendReceiveUsingQueueClient\bin\Debug\netcoreapp2.0\BasicSendReceiveUsingQueueClient.pdb
+C:\Users\Administrator\Documents\Git\Microsoft.Azure.ServiceBus\BasicSendReceiveUsingQueueClient\obj\Debug\netcoreapp2.0\BasicSendReceiveUsingQueueClient.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\Git\Microsoft.Azure.ServiceBus\BasicSendReceiveUsingQueueClient\obj\Debug\netcoreapp2.0\BasicSendReceiveUsingQueueClient.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Git\Microsoft.Azure.ServiceBus\BasicSendReceiveUsingQueueClient\obj\Debug\netcoreapp2.0\BasicSendReceiveUsingQueueClient.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Git\Microsoft.Azure.ServiceBus\BasicSendReceiveUsingQueueClient\obj\Debug\netcoreapp2.0\BasicSendReceiveUsingQueueClient.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Git\Microsoft.Azure.ServiceBus\BasicSendReceiveUsingQueueClient\obj\Debug\netcoreapp2.0\BasicSendReceiveUsingQueueClient.dll
+C:\Users\Administrator\Documents\Git\Microsoft.Azure.ServiceBus\BasicSendReceiveUsingQueueClient\obj\Debug\netcoreapp2.0\BasicSendReceiveUsingQueueClient.pdb

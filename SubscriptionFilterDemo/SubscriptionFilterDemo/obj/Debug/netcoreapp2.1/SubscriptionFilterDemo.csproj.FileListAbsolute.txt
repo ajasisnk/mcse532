@@ -1,0 +1,11 @@
+C:\Users\Administrator\Documents\Git\mcse532\SubscriptionFilterDemo\SubscriptionFilterDemo\bin\Debug\netcoreapp2.1\SubscriptionFilterDemo.deps.json
+C:\Users\Administrator\Documents\Git\mcse532\SubscriptionFilterDemo\SubscriptionFilterDemo\bin\Debug\netcoreapp2.1\SubscriptionFilterDemo.runtimeconfig.json
+C:\Users\Administrator\Documents\Git\mcse532\SubscriptionFilterDemo\SubscriptionFilterDemo\bin\Debug\netcoreapp2.1\SubscriptionFilterDemo.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\Git\mcse532\SubscriptionFilterDemo\SubscriptionFilterDemo\bin\Debug\netcoreapp2.1\SubscriptionFilterDemo.dll
+C:\Users\Administrator\Documents\Git\mcse532\SubscriptionFilterDemo\SubscriptionFilterDemo\obj\Debug\netcoreapp2.1\SubscriptionFilterDemo.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\Git\mcse532\SubscriptionFilterDemo\SubscriptionFilterDemo\obj\Debug\netcoreapp2.1\SubscriptionFilterDemo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Git\mcse532\SubscriptionFilterDemo\SubscriptionFilterDemo\obj\Debug\netcoreapp2.1\SubscriptionFilterDemo.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Git\mcse532\SubscriptionFilterDemo\SubscriptionFilterDemo\obj\Debug\netcoreapp2.1\SubscriptionFilterDemo.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Git\mcse532\SubscriptionFilterDemo\SubscriptionFilterDemo\bin\Debug\netcoreapp2.1\SubscriptionFilterDemo.pdb
+C:\Users\Administrator\Documents\Git\mcse532\SubscriptionFilterDemo\SubscriptionFilterDemo\obj\Debug\netcoreapp2.1\SubscriptionFilterDemo.dll
+C:\Users\Administrator\Documents\Git\mcse532\SubscriptionFilterDemo\SubscriptionFilterDemo\obj\Debug\netcoreapp2.1\SubscriptionFilterDemo.pdb
