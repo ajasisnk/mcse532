@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriptionFilterDemo", "SubscriptionFilterDemo\SubscriptionFilterDemo.csproj", "{C6AABC53-8568-4485-BA8C-504B984B0FEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6AABC53-8568-4485-BA8C-504B984B0FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6AABC53-8568-4485-BA8C-504B984B0FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6AABC53-8568-4485-BA8C-504B984B0FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6AABC53-8568-4485-BA8C-504B984B0FEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0B266E2-0D6E-4D52-BD8E-04FC9E7A4762}
+	EndGlobalSection
+EndGlobal

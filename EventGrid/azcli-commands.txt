@@ -1,0 +1,74 @@
+#### https://ajserverless.z6.web.core.windows.net/
+
+az group create -n aj-serverless-app -l westeurope
+
+az storage account create -n ajserverless -g aj-serverless-app --kind StorageV2 -l westeurope --https-only true --sku Standard_LRS
+
+
+cd ~/functions-first-serverless-web-application/www
+npm install
+npm run generate
+
+
+
+cd dist
+az storage blob upload-batch -s . -d \"$web" --account-name "ajserverless"
+
+az storage container create -n images --account-name "ajserverless" --public-access blob
+
+
+
+az functionapp create -n aj-serverless-app -g aj-serverless-app -s ajserverless -c westeurope
+
+az functionapp config appsettings set -n aj-serverless-app -g aj-serverless-app --settings FUNCTIONS_EXTENSION_VERSION=~1
+
+az storage account show-connection-string -n ajserverless -g aj-serverless-app --query "connectionString" --output table
+
+DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=ajserverless;AccountKey=XmlL35Rpfa8ecmPHcx4KRgg75GIQz03ML8623Y/Oa8EnJUvnobwK5FLn/+TPCAczSY5BFv+66Xrogv+2WlhyKQ==
+
+az storage cors add --methods OPTIONS PUT --origins '*' --exposed-headers '*' --allowed-headers '*' --services b -n ajserverless
+
+$env:FUNCTION_APP_URL="https://"+$(az functionapp show -n aj-serverless-app -g aj-serverless-app --query "defaultHostName" --output tsv)
+
+echo "window.apiBaseUrl = '$env:FUNCTION_APP_URL'" > settings.js
+
+$env:BLOB_BASE_URL=$(az storage account show -n ajserverless -g aj-serverless-app --query primaryEndpoints.blob -o tsv | sed 's/\/$//')
+
+echo "window.blobBaseUrl = $env:BLOB_BASE_URL" > settings.js
+
+az storage blob upload -c `$web --account-name ajserverless -n settings.js -f settings.js
+
+az storage blob list --account-name ajserverless -c images -o table
+
+az storage blob delete-batch -s images --account-name ajserverless
+
+
+---------------------------
+
+az storage container create -n thumbnails --account-name ajserverless --public-access blob
+
+az storage blob list --account-name ajserverless -c images -o table
+
+az storage blob delete-batch -s images --account-name ajserverless
+
+az storage blob delete-batch -s thumbnails --account-name ajserverless
+
+----------------------------
+
+az cosmosdb create -n ajserverless -g aj-serverless-app
+
+az cosmosdb database create -n ajserverless -g aj-serverless-app --db-name imagesdb
+
+az cosmosdb collection -n ajserverless -g aj-serverless-app  --db-name imagesdb --collection-name images --throughput 400
+
+
+-----------------------------
+
+az cognitiveservices account create -g aj-serverless-app -n ajserverless --kind ComputerVision --sku F0 -l westeurope
+
+$env:COMP_VISION_KEY=$(az cognitiveservices account keys list -g aj-serverless-app -n ajserverless --query key1 --output tsv)
+
+$env:COMP_VISION_URL=$(az cognitiveservices account show -g aj-serverless-app -n ajserverless --query endpoint --output tsv)
+
+az functionapp config appsettings set -g aj-serverless-app -n ajserverless --settings COMP_VISION_KEY=$env:COMP_VISION_KEY COMP_VISION_URL=$env:COMP_VISION_URL -o table
+

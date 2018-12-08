@@ -1,0 +1,10 @@
+C:\Users\Administrator\Documents\Git\mcse532\simple-websocket\Server\bin\Debug\Server.exe.config
+C:\Users\Administrator\Documents\Git\mcse532\simple-websocket\Server\bin\Debug\Server.exe
+C:\Users\Administrator\Documents\Git\mcse532\simple-websocket\Server\bin\Debug\Server.pdb
+C:\Users\Administrator\Documents\Git\mcse532\simple-websocket\Server\bin\Debug\Microsoft.Azure.Relay.dll
+C:\Users\Administrator\Documents\Git\mcse532\simple-websocket\Server\bin\Debug\Microsoft.Azure.Relay.xml
+C:\Users\Administrator\Documents\Git\mcse532\simple-websocket\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\Git\mcse532\simple-websocket\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Git\mcse532\simple-websocket\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\Administrator\Documents\Git\mcse532\simple-websocket\Server\obj\Debug\Server.exe
+C:\Users\Administrator\Documents\Git\mcse532\simple-websocket\Server\obj\Debug\Server.pdb

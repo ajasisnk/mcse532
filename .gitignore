@@ -1,3 +1,7 @@
+# VS folder
+.vs/
+*/.vs/
+
 # Prerequisites
 *.d
 
